@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d6e2f0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App {
+  width: 18rem;
+  height: 28rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+img {
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.img {
+  padding: 1rem;
+  overflow: hidden;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1f3251;
+  padding: 0 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #7b879d;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
